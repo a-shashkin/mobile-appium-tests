@@ -20,7 +20,7 @@ public class RealDeviceDriver implements WebDriverProvider {
     static RealDeviceConfig config = ConfigFactory.create(RealDeviceConfig.class);
 
     public static URL getAppiumServerURL() {
-        String url = System.getProperty("localURL", config.realdeviceURL());
+        String url = System.getProperty("realdeviceURL", config.realdeviceURL());
         try {
             return new URL(url);
         } catch (MalformedURLException e) {
@@ -31,8 +31,8 @@ public class RealDeviceDriver implements WebDriverProvider {
     @Override
     public WebDriver createDriver(DesiredCapabilities desiredCapabilities) {
 
-        String device = System.getProperty("localDevice", config.realdeviceDevice());
-        String osVersion = System.getProperty("localOSVersion", config.realdeviceOSVersion());
+        String device = System.getProperty("realdeviceDevice", config.realdeviceDevice());
+        String osVersion = System.getProperty("realdeviceOSVersion", config.realdeviceOSVersion());
 
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("deviceName", device);
