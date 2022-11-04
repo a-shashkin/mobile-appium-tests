@@ -61,7 +61,7 @@ task selenide_android(type: Test) {
 
 task selenoid_android(type: Test) {
     useJUnitPlatform {
-        includeTags 'selenide_android'
+        includeTags 'selenoid_android'
     }
     systemProperty "deviceFarm", "selenoid"
 }
