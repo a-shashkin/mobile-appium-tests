@@ -20,7 +20,7 @@ public class SelenoidAndroidSampleAppTest extends SelenoidTestBase {
     @Tag("selenoid_sample")
     @Story("Проверка работы строки поиска")
     @DisplayName("Проверка выдачи результатов поиска по запросу BrowserStack")
-    @AllureId("12329")
+    @AllureId("12655")
     void searchTest() {
         back();
         $(MobileBy.AccessibilityId("Search Wikipedia")).click();

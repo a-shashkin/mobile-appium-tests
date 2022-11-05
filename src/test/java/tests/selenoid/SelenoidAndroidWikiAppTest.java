@@ -21,7 +21,7 @@ public class SelenoidAndroidWikiAppTest extends SelenoidTestBase {
     @Tag("selenoid_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на первом экране")
-    @AllureId("12329")
+    @AllureId("12656")
     void gettingStartedScreenPageOneTest() {
 
         $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
@@ -44,7 +44,7 @@ public class SelenoidAndroidWikiAppTest extends SelenoidTestBase {
     @Tag("selenoid_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на втором экране")
-    @AllureId("12329")
+    @AllureId("12657")
     void gettingStartedScreenPageTwoTest() {
         $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button"))
                 .click();
@@ -65,7 +65,7 @@ public class SelenoidAndroidWikiAppTest extends SelenoidTestBase {
     @Tag("selenoid_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на третьем экране")
-    @AllureId("12329")
+    @AllureId("12658")
     void gettingStartedScreenPageThreeTest() {
         $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button"))
                 .click();
@@ -87,7 +87,7 @@ public class SelenoidAndroidWikiAppTest extends SelenoidTestBase {
     @Tag("selenoid_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на четвёртом экране")
-    @AllureId("12329")
+    @AllureId("12659")
     void gettingStartedScreenPageFourTest() {
         $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_forward_button"))
                 .click();
