@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 @Feature("Экран Getting started")
 @Owner("Alexander Shashkin")
-public class RealDeviceAndroidWikiAppTest {
+public class RealDeviceAndroidWikiAppTest extends RealDeviceTestBase {
 
     @Test
     @Tag("selenide_android")
