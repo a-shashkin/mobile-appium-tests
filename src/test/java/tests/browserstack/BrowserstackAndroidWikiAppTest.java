@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.$$;
 @Owner("Alexander Shashkin")
 public class BrowserstackAndroidWikiAppTest extends BrowserstackTestBase {
     @Test
-    @Tag("selenide_android")
+    @Tag("browserstack_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на первом экране")
     @AllureId("12329")
@@ -41,7 +41,7 @@ public class BrowserstackAndroidWikiAppTest extends BrowserstackTestBase {
     }
 
     @Test
-    @Tag("selenide_android")
+    @Tag("browserstack_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на втором экране")
     @AllureId("12329")
@@ -62,7 +62,7 @@ public class BrowserstackAndroidWikiAppTest extends BrowserstackTestBase {
     }
 
     @Test
-    @Tag("selenide_android")
+    @Tag("browserstack_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на третьем экране")
     @AllureId("12329")
@@ -84,7 +84,7 @@ public class BrowserstackAndroidWikiAppTest extends BrowserstackTestBase {
     }
 
     @Test
-    @Tag("selenide_android")
+    @Tag("browserstack_android")
     @Story("Проверка элементов экрана Getting started")
     @DisplayName("Проверка элементов на четвёртом экране")
     @AllureId("12329")

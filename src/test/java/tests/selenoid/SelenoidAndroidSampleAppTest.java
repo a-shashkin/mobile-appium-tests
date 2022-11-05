@@ -17,7 +17,7 @@ import static com.codeborne.selenide.Selenide.*;
 @Owner("Alexander Shashkin")
 public class SelenoidAndroidSampleAppTest extends SelenoidTestBase {
     @Test
-    @Tag("selenoid_android")
+    @Tag("selenoid_sample")
     @Story("Проверка работы строки поиска")
     @DisplayName("Проверка выдачи результатов поиска по запросу BrowserStack")
     @AllureId("12329")

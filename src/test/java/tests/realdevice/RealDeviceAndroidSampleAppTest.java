@@ -17,7 +17,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class RealDeviceAndroidSampleAppTest {
 
     @Test
-    @Tag("selenide_android")
+    @Tag("selenide_sample")
     @Story("Проверка работы строки поиска")
     @DisplayName("Проверка выдачи результатов поиска по запросу BrowserStack")
     @AllureId("12329")

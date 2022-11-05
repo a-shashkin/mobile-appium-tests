@@ -17,7 +17,7 @@ import static com.codeborne.selenide.Selenide.$$;
 @Owner("Alexander Shashkin")
 public class BrowserstackAndroidSampleAppTest extends BrowserstackTestBase {
     @Test
-    @Tag("selenide_android")
+    @Tag("browserstack_sample")
     @Story("Проверка работы строки поиска")
     @DisplayName("Проверка выдачи результатов поиска по запросу BrowserStack")
     @AllureId("12329")
